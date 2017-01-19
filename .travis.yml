@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: AKIAJLOHFALHVMJHHPLA
+  bucket: p2p.merritt.io
+  region: us-west-2
+  secret_access_key:
+    secure: p4Z5ZzuwI6O+F+qWzxx7/a62WSvZDnr7Iv9ZMziSF2akAJBh/ZC3Ld4Gj92glm689LYqIEVGThv74R/WWJIyGmR/97AgiK1FMEWMBSwHGwmH9pN3EmHWuM+ogaP/fYTAnSdDDxNl6MXkugAp3Xgj/GVAhk2HA6l9e+ERqE61TrjFPLlmz4MciS+vkG47wfo9sW0X8E9NABnxn/3bVRfpQ75H+cE6mAKK0ieXrw1jRS8hjIKMBjY/PUqFKJ2KoRMs3ceEtlTo97X3kIsgfWWiN6pKzhRZ8ouY0caxoqTy/7/fBAyEVodCJIyO1hkDS7/9zRfTceUnw97sv5CByKkvGTVbzON+Co7F+32EsfzHfM4IaMp5OsA62cCsMMaF5+9w1ivcRF3kt/aKJG2GD+pmcIGNPS9d98xCW+iKHIaGjtNyFeTQDuDCN7a+g1N+GKZ9gXeakatYdwjkOmsXYP+89NLfTn/x7A/I+MiWVrUWSGFdM30phf37s4+PEOizvoZZ6Qwi7NODaYxrjd8XWA1B8Nl9F8QmL5A/DPyTa+TlML0FX7v097h3SBBZ7sRLBJOObfikeU8P/NqYqxE2F91cvChSoTwUfNX7YDKRSFHwAyihQZIusqox+6VYjqm/QKgzt6D23AlMcFFo4an2KdMcsORF21EOxk64+dZg55UKgyk=
